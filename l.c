@@ -3,7 +3,7 @@ include<stdio.h>
 int main(){
 
     int num,i,count=0;
-    printf("Enter a number: ");
+    printf(" ");
     scanf("%d",&num);
     for(i=2;i<=num/2;i++){
         if(num%i==0){
@@ -12,8 +12,8 @@ int main(){
         }
     }
    if(count==0 && num!= 1)
-        printf("%d is a prime number",num);
+        printf("yes",num);
    else
-      printf("%d is not a prime number",num);
+      printf("no",num);
    return 0;
 }
