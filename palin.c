@@ -1,5 +1,4 @@
 # include <stdio.h>
-#include<conio.h>
 int main()
 {
     int n, a = 0, r, b;
