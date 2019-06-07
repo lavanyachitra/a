@@ -4,7 +4,7 @@ int main()
 {
     int n, a = 0, r, b;
 
-    printf("Enter an integer: ");
+    printf(" ");
     scanf("%d", &n);
    b = n;
   while( n!=0 )
@@ -14,9 +14,9 @@ int main()
         n /= 10;
     }
     if (b==a)
-        printf("%d is a palindrome.",b);
+        printf("yes",b);
     else
-        printf("%d is not a palindrome.", b);
+        printf("no", b);
     
     return 0;
 }
