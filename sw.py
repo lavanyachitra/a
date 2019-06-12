@@ -1,3 +1,3 @@
-h,g=(int,input().split())
+h,g=map(int,input().split())
 h,g=g,h
 print(h,g)
